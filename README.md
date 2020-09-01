@@ -11,11 +11,11 @@ PROBLEM DESCRIPTION:
 
      \<StockSymbol\>,\<MaxTradeGap\>,\<TotalVolumeTraded\>,\<MaxTradePrice\>,\<VolWeightedAvgPrc\>
 
-     -StockSymbol - Symbol of a stock eg. IBM
-     -MaxTradeGap - What is maimum trade gap in a given day for IBM
-     -TotalVolumeTraded - in a given day for stock IBM
-     -MaxTradePrice - What is max trade price in a gicen day for IBM.
-     -VolWeightedAvgPrc - TotalWeight/TotalVolume.
+     StockSymbol - Symbol of a stock eg. IBM
+     MaxTradeGap - What is maimum trade gap in a given day for IBM
+     TotalVolumeTraded - in a given day for stock IBM
+     MaxTradePrice - What is max trade price in a gicen day for IBM.
+     VolWeightedAvgPrc - TotalWeight/TotalVolume.
          TotalWeight= Volume1 * price1 + Volume2 * price2 + ...
          TotalVolume = Volume1 + Volume2 + ...
 
