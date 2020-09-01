@@ -4,6 +4,7 @@ PROBLEM DESCRIPTION:
 
   \<TimeStamp\>,\<StockSymbol\>,\<Volume\>,\<Price\>
 
+Implement code to address followings:
   1. The program should be easily enhanced if more data fields are added at the
   end of the above sample time series data. 
   2. The prgramm will print following stat/matrix for each of stock symbol in
