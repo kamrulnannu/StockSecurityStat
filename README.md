@@ -2,14 +2,14 @@ PROBLEM DESCRIPTION:
   The task is to compute trade stat/matrix after market close from time series
   data which are comming from a exchange. The format of sample time series data:
 
-  TimeStamp,StockSymbol,Volume,Price
+  \<TimeStamp\>,\<StockSymbol\>,\<Volume\>,\<Price\>
 
   1. The program should be easily enhanced if more data fields are added at the
   end of the above sample time series data. 
   2. The prgramm will print following stat/matrix for each of stock symbol in
      ascending order by symbol:
 
-     StockSymbol,MaxTradeGap,TotalVolumeTraded,MaxTradePrice,VolWeightedAvgPrc
+     \<StockSymbol\>,\<MaxTradeGap\>,\<TotalVolumeTraded\>,\<MaxTradePrice\>,\<VolWeightedAvgPrc\>
 
      StockSymbol - Symbol of a stock eg. IBM
      MaxTradeGap - What is maimum trade gap in a given day for IBM
