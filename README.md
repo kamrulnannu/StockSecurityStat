@@ -22,6 +22,7 @@ PROBLEM DESCRIPTION:
      The code should easily be enhanced if more stat are added or if we want
      fewer stat from above given stat.  
  3. The code should not process invalid time series data
+ 4. Due to large input timeseries data consider the fact of machine's main memory limitation
 ----------------------------------------------------------------------
 
 1. I have built the project in cygwin (x86_64, windows 10 professional). Version
