@@ -9,7 +9,7 @@ PROBLEM DESCRIPTION:
   2. The prgramm will print following stat/matrix for each of stock symbol in
      ascending order by symbol:
 
-     <StockSymbol>,<MaxTradeGap>,<TotalVolumeTraded>,<MaxTradePrice>,<VolWeightedAvgPrc>
+     StockSymbol,MaxTradeGap,TotalVolumeTraded,MaxTradePrice,VolWeightedAvgPrc
 
      StockSymbol - Symbol of a stock eg. IBM
      MaxTradeGap - What is maimum trade gap in a given day for IBM
