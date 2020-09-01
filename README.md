@@ -2,7 +2,7 @@ PROBLEM DESCRIPTION:
   The task is to compute trade stat/matrix after market close from time series
   data which are comming from a exchange. The format of sample time series data:
 
-  <TimeStamp>,<StockSymbol>,<Volume>,<Price>
+  TimeStamp,StockSymbol,Volume,Price
 
   1. The program should be easily enhanced if more data fields are added at the
   end of the above sample time series data. 
