@@ -50,7 +50,7 @@ gcc version 9.2.0 (GCC)\
     <pre>
       (i) line validation logic in the input file, eg. blank symbol or less than equal to 0 timestamp/volume/price
       (ii) whether number items in the line is 4 (A valid input line should have 4 items: timestamp, symbol, voulme, price)
-      (iii) Whether current time stamp less than previous time stamp
+      (iii) Whether current time stamp less than previous time stamp. Note, timesatmp is in microseconds from midnight of a given day
       
     Example error sample while processing sample_input.csv:
         ERROR: Share price is <= 0!, Input Line =52900024703,aax,9,0, Line Num=4
