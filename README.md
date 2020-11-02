@@ -13,7 +13,7 @@ Implement code to address followings:
      \<StockSymbol\>,\<MaxTradeGap\>,\<TotalVolumeTraded\>,\<MaxTradePrice\>,\<VolWeightedAvgPrc\>
 
      StockSymbol - Symbol of a stock eg. IBM\
-     MaxTradeGap - What is maimum trade gap in a given day for IBM\
+     MaxTradeGap - What is maximum trade gap in a given day for IBM\
      TotalVolumeTraded - in a given day for stock IBM\
      MaxTradePrice - What is max trade price in a gicen day for IBM\
      VolWeightedAvgPrc - TotalWeight/TotalVolume\
